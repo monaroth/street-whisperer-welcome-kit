@@ -1,0 +1,22 @@
+{
+  "name": "street-whisperer-welcome-kit",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Free, browser-only bilingual welcome-card and QR studio for Street Whisperer",
+  "license": "MIT",
+  "scripts": {
+    "build": "node build.mjs",
+    "test": "node --test test/*.test.mjs"
+  },
+  "dependencies": {
+    "qrcode-generator": "2.0.4"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.64.1",
+    "@sparticuz/chromium": "^153.0.0",
+    "esbuild": "0.25.12",
+    "jsdom": "26.1.0",
+    "jsqr": "^1.4.0",
+    "pngjs": "^7.0.0"
+  }
+}
